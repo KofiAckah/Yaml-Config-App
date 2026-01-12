@@ -140,20 +140,6 @@ This lab demonstrated how to create, validate, and convert configuration files u
 
 ## 👨‍💻 Author
 
-**Livingstone Kofi Ackah**
+**Joel Livingstone Kofi Ackah**
 
 - GitHub: [@KofiAckah](https://github.com/KofiAckah)
-
-## 🙏 Acknowledgments
-
-- Assignment provided by Paul Mensah
-- Cloud Fundamentals & Scripting Course
-
----
-
-**Lab Assignment - YAML Configuration**
-
-## 🙏 Acknowledgments
-
-- Validation tools by YAML Lint, Online YAML Tools, and JSON Lint
-- Kubernetes community for excellent documentation
