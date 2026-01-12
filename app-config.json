@@ -1,0 +1,34 @@
+{
+  "application": {
+    "name": "MyApplication",
+    "version": "1.0.0",
+    "environment": "production",
+    "log_level": "INFO"
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8080
+  },
+  "database": {
+    "engine": "postgresql",
+    "host": "postgres-service",
+    "port": 5432,
+    "name": "myapp_db",
+    "username": "Livingstone",
+    "password": "secure_password_1234"
+  },
+  "features": {
+    "enable_auth": true,
+    "enable_cache": true,
+    "enable_metrics": true
+  },
+  "cache": {
+    "ttl": 3600,
+    "max_size": 1000
+  },
+  "api": {
+    "timeout": 30,
+    "max_retries": 3,
+    "rate_limit": 100
+  }
+}

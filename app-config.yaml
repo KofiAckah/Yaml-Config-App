@@ -1,7 +1,8 @@
 application:
-  name: MyWebApp
+  name: MyApplication
   version: 1.0.0
   environment: production
+  log_level: INFO
 
 server:
   host: 0.0.0.0
@@ -9,7 +10,22 @@ server:
 
 database:
   engine: postgresql
-  host: db.mywebapp.com
+  host: postgres-service
   port: 5432
+  name: myapp_db
   username: Livingstone
-  password: securepassword1234!
+  password: secure_password_1234
+
+features:
+  enable_auth: true
+  enable_cache: true
+  enable_metrics: true
+
+cache:
+  ttl: 3600
+  max_size: 1000
+
+api:
+  timeout: 30
+  max_retries: 3
+  rate_limit: 100
