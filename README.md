@@ -1,23 +1,23 @@
-# YAML Configuration for an Application 🚀
+# YAML Configuration for an Application
 
 A project demonstrating how to create, validate, and convert application configuration files using YAML and JSON formats.
 
-## 📋 Objective
+## Objective
 
 The objective of this lab is to learn how to construct well-formed configuration files using YAML syntax, validate them using online tools, and convert them to JSON format for data interchange.
 
-## 🎯 Overview
+## Overview
 
 YAML (YAML Ain't Markup Language) and JSON (JavaScript Object Notation) are commonly used formats in cloud computing and DevOps for defining application settings, infrastructure configurations, and data exchange. This project focuses on creating a structured configuration file that defines application, server, database, and additional settings for a web application.
 
-## 🛠️ Tools Used
+## Tools Used
 
 - **Text Editor**: Visual Studio Code
 - **YAML Validator**: [YAML Lint](https://www.yamllint.com/)
 - **YAML to JSON Converter**: [Online YAML Tools](https://onlineyamltools.com/convert-yaml-to-json)
 - **JSON Validator**: [JSON Lint](https://jsonlint.com/)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 YAML Config App/
@@ -30,7 +30,7 @@ YAML Config App/
 └── Assignment.pdf           # Lab assignment requirements
 ```
 
-## 📝 Procedure
+## Procedure
 
 ### Step 1: Create the YAML Configuration File
 
@@ -110,7 +110,7 @@ The converted JSON file was validated using [JSON Lint](https://jsonlint.com/) t
 
 ![JSON Validation](./Assets/JsonValidator.png)
 
-## ✅ Results
+## Results
 
 The YAML configuration file was successfully:
 - Created with proper indentation and structure
@@ -120,11 +120,11 @@ The YAML configuration file was successfully:
 
 The configuration file accurately represents the structure and parameters of a web application, including application metadata, server settings, database connection parameters, feature flags, cache settings, and API configuration.
 
-## 🎓 Conclusion
+## Conclusion
 
 This lab demonstrated how to create, validate, and convert configuration files using YAML and JSON formats. Understanding these formats is essential for working with cloud platforms, DevOps tools, and modern applications. YAML provides excellent readability for configuration files, while JSON is widely used for data exchange between systems.
 
-## 💡 Lessons Learned
+## Lessons Learned
 
 - Proper indentation is critical in YAML files (spaces, not tabs)
 - JSON has stricter syntax rules than YAML (requires quotes around strings)
@@ -132,13 +132,13 @@ This lab demonstrated how to create, validate, and convert configuration files u
 - YAML and JSON can represent the same data using different formats
 - Configuration files should be well-structured and organized for maintainability
 
-## 🔗 Validation Tools Used
+## Validation Tools Used
 
 - **YAML Validator**: [https://www.yamllint.com/](https://www.yamllint.com/)
 - **YAML to JSON Converter**: [https://onlineyamltools.com/convert-yaml-to-json](https://onlineyamltools.com/convert-yaml-to-json)
 - **JSON Validator**: [https://jsonlint.com/](https://jsonlint.com/)
 
-## 👨‍💻 Author
+## Author
 
 **Joel Livingstone Kofi Ackah**
 
